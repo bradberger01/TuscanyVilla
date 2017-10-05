@@ -1,2 +1,25 @@
 ﻿body {
 }
+/*NavBar*/
+nav#navvy.navbar.navbar-static-top
+{
+    margin-top:0px;
+    margin-bottom:0px;
+    color:#fff6f0;
+    background-color: #6a1525;
+    
+
+}
+
+.navText{
+
+    float:right;
+}
+
+.MenuItemHeaders{
+    background-color:blue;
+}
+
+#PictureResize{
+    width:200px;
+}
