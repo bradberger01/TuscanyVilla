@@ -1,12 +1,31 @@
-﻿body {
+﻿@import url('https://fonts.googleapis.com/css?family=Poppins');
+body {
+  padding:0;
+  margin:0;
+  
 }
+/*ForAll*/
+.MenuItemHeaders{
+    background-color:#576B97;
+}
+.textColor{
+    color:#b2c2ec;
+    font-family:'Poppins', sans-serif;
+}
+.darkerTextColor{
+    color:#756b97;
+    font-family:'Poppins', sans-serif;
+    
+}
+
 /*NavBar*/
 nav#navvy.navbar.navbar-static-top
 {
     margin-top:0px;
     margin-bottom:0px;
-    color:#fff6f0;
-    background-color: #6a1525;
+    /*color:#576b97;*/
+    background-color: #576b97;
+    position:relative;
     
 
 }
@@ -14,12 +33,90 @@ nav#navvy.navbar.navbar-static-top
 .navText{
 
     float:right;
+    color:white;
+}
+.logo{
+    float:left;
+    color:white;
+}
+/*HomePage*/
+.secondPicResize{
+    position: absolute;
+    left:0;
+    /*float:left;*/
+    margin:0;
+    padding:0;
+   
+}
+.MapPicResize{
+   padding:0;
+   margin:0;
+   position:relative;
+   right: 40px;
+   
+
 }
 
-.MenuItemHeaders{
-    background-color:blue;
+.caption{
+     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color:white;
 }
 
-#PictureResize{
-    width:200px;
+/*Locations*/
+
+#LocationPictures{
+    width:80%;
+    margin:auto;
+    padding: 10px;
+    float:left;
 }
+
+.positionLeft{  
+    float:left;
+}
+.positionRight{
+    float:right;
+   
+}
+
+
+
+
+/*Ammenities*/
+
+#AmmenityPictures{
+display:block;
+margin:0;
+}
+.left{
+    left:43px;
+}
+.right{
+    right:43px;
+}
+#TextCenter{
+    margin:auto
+}
+
+
+/*Reviews*/
+.invisible{
+    opacity:0;
+}
+
+
+/*Contact*/
+
+
+
+
+
+
+
+
+
+
+
